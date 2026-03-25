@@ -17,3 +17,7 @@ python -c "import flash_attn; print(f'Flash Attention {flash_attn.__version__} i
 mv lerobot/src/lerobot/policies/groot lerobot/src/lerobot/policies/groot_bkp 
 cp -r groot lerobot/src/lerobot/policies/
 ```
+4. Run lerobot function as usual. For reference, see run_groot.sh. Here's an example. 
+```
+bash run_groot.sh groot <DATASET FOLDER> 
+```
